@@ -1,2 +1,2 @@
 # gp-booking-system
-General Practitioner (GP) booking system for a Doctor's interface
+General Practitioner (GP) Booking System for a Doctor's interface
