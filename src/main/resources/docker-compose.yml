@@ -1,0 +1,14 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: doctordb_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ADMIN_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "${DB_PORT}:3306"
+    volumes:
+      - ./db_init:/docker-entrypoint-initdb.d
