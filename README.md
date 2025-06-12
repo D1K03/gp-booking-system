@@ -31,6 +31,7 @@ Java is the main language used for both frontend and backend, utilising the Java
 - Send message to an admin/receptionist.
 
 
+
 Authentication 
 
 ![image](https://github.com/user-attachments/assets/f7b132fd-9e29-4a6a-9d84-fd4b61500675)
