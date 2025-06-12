@@ -1,0 +1,54 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+/target/
+/out/
+/build/
+
+# Dependency directories
+/lib/
+/node_modules/
+
+# IDE files
+*.iml
+.idea/
+/.vscode/
+/shelf/
+/.idea/workspace.xml
+
+# Eclipse files
+/.metadata/
+/bin/
+/settings/
+/.project
+/.classpath
+
+# Netbeans files
+/nbproject/private/
+/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configs
+*.properties
+*.env
+*.config
+*.ini
+
+# Logs
+/logs/
+*.log
+
+# HTTP
+/httpRequests/
+
+# Data Sources
+/dataSources/
+/dataSources.local.xml
